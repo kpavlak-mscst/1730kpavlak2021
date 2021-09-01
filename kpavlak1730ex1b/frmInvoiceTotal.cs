@@ -19,8 +19,9 @@ namespace kpavlak1730ex1b
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            //txtTotal.Text = "10";
-            //txtTotal.ReadOnly = false;
+            
+            txtDiscountamount.Text = (Convert.ToDecimal(txtSubtotal.Text) * Convert.ToDecimal(txtDiscountpercent.Text) / 100).ToString("0.00");
+            txtTotal.Text = (Convert.ToDecimal(txtSubtotal.Text) - Convert.ToDecimal(txtDiscountpercent.Text)).ToString("0.00");
         }
 
         private void btnExit_Click(object sender, EventArgs e)
