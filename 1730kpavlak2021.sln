@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpavlak1730ex1b", "kpavlak1730ex1b\kpavlak1730ex1b.csproj", "{20A97726-8EB4-489B-8AC0-EE9944E6A50B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kpavlak1730ex1c", "Kpavlak1c1\Kpavlak1730ex1c.csproj", "{60FE4D6A-3021-4176-8495-49F2AF6EA563}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20A97726-8EB4-489B-8AC0-EE9944E6A50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20A97726-8EB4-489B-8AC0-EE9944E6A50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20A97726-8EB4-489B-8AC0-EE9944E6A50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FE4D6A-3021-4176-8495-49F2AF6EA563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FE4D6A-3021-4176-8495-49F2AF6EA563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FE4D6A-3021-4176-8495-49F2AF6EA563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FE4D6A-3021-4176-8495-49F2AF6EA563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
