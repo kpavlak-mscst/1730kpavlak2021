@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F991AF74-4971-441A-B9D2-F77EBD35FBA6}</ProjectGuid>
+    <ProjectGuid>{F4C1E3FF-CD6A-4030-8B4E-F6C559F77DCA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>kpavlakex1d</RootNamespace>
-    <AssemblyName>kpavlakex1d</AssemblyName>
+    <RootNamespace>Kpavlakex1e</RootNamespace>
+    <AssemblyName>Kpavlakex1e</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlagIcons.cs">
+    <Compile Include="Average Test Score.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FlagIcons.Designer.cs">
-      <DependentUpon>FlagIcons.cs</DependentUpon>
+    <Compile Include="Average Test Score.Designer.cs">
+      <DependentUpon>Average Test Score.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FlagIcons.resx">
-      <DependentUpon>FlagIcons.cs</DependentUpon>
+    <EmbeddedResource Include="Average Test Score.resx">
+      <DependentUpon>Average Test Score.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,13 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="flags\Australia-Flag-icon.png" />
-    <Content Include="flags\Bhutan-Flag-icon.png" />
-    <Content Include="flags\Costa-Rica-Flag-icon.png" />
-    <Content Include="flags\European-Union-Flag-icon.png" />
-    <Content Include="flags\United-States-Flag-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
