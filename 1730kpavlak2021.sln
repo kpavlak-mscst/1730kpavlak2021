@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpavlak1730EX2E", "kpavlak1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpavlak1730EX2EUnitTest", "kpavlak1730EX2EUnitTest\kpavlak1730EX2EUnitTest.csproj", "{90893F45-F244-412E-9ADB-206A22268B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpavlak1730EX2G", "kpavlak1730EX2G\kpavlak1730EX2G.csproj", "{752D6307-87E7-4745-A875-44B6CF1C8883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kpavlak1730EX2GUnittest", "kpavlak1730EX2Gunittest\kpavlak1730EX2GUnittest.csproj", "{5950CEBC-FE44-4FA5-802D-F6E4515CA25D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{90893F45-F244-412E-9ADB-206A22268B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90893F45-F244-412E-9ADB-206A22268B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90893F45-F244-412E-9ADB-206A22268B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752D6307-87E7-4745-A875-44B6CF1C8883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752D6307-87E7-4745-A875-44B6CF1C8883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752D6307-87E7-4745-A875-44B6CF1C8883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752D6307-87E7-4745-A875-44B6CF1C8883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5950CEBC-FE44-4FA5-802D-F6E4515CA25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5950CEBC-FE44-4FA5-802D-F6E4515CA25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5950CEBC-FE44-4FA5-802D-F6E4515CA25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5950CEBC-FE44-4FA5-802D-F6E4515CA25D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
