@@ -131,5 +131,10 @@ namespace kpavlak1730EX2E
 
 
         }
+
+        private void input10aTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

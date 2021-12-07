@@ -482,6 +482,7 @@ namespace kpavlak1730EX2E
             this.input10aTextBox.Size = new System.Drawing.Size(67, 20);
             this.input10aTextBox.TabIndex = 43;
             this.input10aTextBox.Text = "1";
+            this.input10aTextBox.TextChanged += new System.EventHandler(this.input10aTextBox_TextChanged);
             // 
             // label12
             // 
